@@ -32,7 +32,7 @@
 				  $total=0;
 				  while ($idstare=mysql_fetch_assoc($records)){
 				  $total = $total + 1; //$idstare['id'];
-				  if ($idstare['lumina'] >= 2000){
+				  if ($idstare['state'] == 1){
 					  $suma = 1+$suma; //$idstare['lumina']
 					  }
 					  
@@ -54,7 +54,7 @@
 				  $total=0;
 				  while ($idstare=mysql_fetch_assoc($records)){
 				  $total = $total + 1; //$idstare['id'];
-				  if ($idstare['lumina'] >= 2000){
+				  if ($idstare['state'] == 1){
 						$suma = 1+$suma; //$idstare['lumina']
 						
 					  }else{
@@ -115,7 +115,7 @@
 				  $total=0;
 				  while ($idstare=mysql_fetch_assoc($records)){
 				  $total = $total + 1; //$idstare['id'];
-				  if ($idstare['lumina'] >= 2000){
+				  if ($idstare['state'] == 1){
 						$suma = 1+$suma; //$idstare['lumina']
 						print " <div style='background-color:#cc2900'>".$suma."</div>";
 					  }else{
@@ -147,7 +147,7 @@
 				  $total=0;
 				  while ($idstare=mysql_fetch_assoc($records)){
 				  $total = $total + 1; //$idstare['id'];
-				  if ($idstare['lumina'] >= 2000){
+				  if ($idstare['state'] == 1){
 					  $suma = 1+$suma; //$idstare['lumina']
 					  }
 					  
@@ -170,7 +170,7 @@
 				  $total=0;
 				  while ($idstare=mysql_fetch_assoc($records)){
 				  $total = $total + 1; //$idstare['id'];
-				  if ($idstare['lumina'] >= 2000){
+				  if ($idstare['state'] == 1){
 					  $suma = 1+$suma; //$idstare['lumina']
 					  }
 					  
@@ -193,7 +193,7 @@
 				  $total=0;
 				  while ($idstare=mysql_fetch_assoc($records)){
 				  $total = $total + 1; //$idstare['id'];
-				  if ($idstare['lumina'] >= 2000){
+				  if ($idstare['state'] == 1){
 					  $suma = 1+$suma; //$idstare['lumina']
 					  }
 					  
