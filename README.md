@@ -18,7 +18,7 @@ pentru pagina web ce demonstreaza principiul de functionare.
        <SharpIR.h> - pentru o mai buna precizie a senzorului de proximitate;
 Acestea au fost descarcate de pe github.com si de pe playground.arduino.cc.
 
-    Rolurile membrilor echipei:
+   Rolurile membrilor echipei:
        Toc Marius-Nicolae - monitorizarea parcarii si transmiterea datelor in baza de date;
        Gruian David - interpretarea (web) a datelor; 
 
